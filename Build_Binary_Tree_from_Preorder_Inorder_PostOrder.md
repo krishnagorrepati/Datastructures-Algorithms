@@ -1,8 +1,4 @@
-# Table of Contents:-
-
 [TOC]
-
-
 
 
 
@@ -31,7 +27,8 @@ https://www.youtube.com/watch?v=GeltTz3Z1rw
             root->left = buildBTree( preorder, inorder, preStart+1, inStart, inorderIndex-1);
             root->right = buildBTree( preorder, inorder,
                                       preStart + (inorderIndex - inStart) + 1,
-                                      inorderIndex + 1, inEnd);
+                                      
+                                                   inorderIndex + 1, inEnd);
     
             return root;
     }
